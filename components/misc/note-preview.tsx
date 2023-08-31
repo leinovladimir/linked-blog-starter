@@ -9,7 +9,7 @@ function TruncateText({ content, maxLength }) {
       ? content.substr(0, maxLength) + '...'
       : content;
 
-  return <div>{truncatedContent}</div>;
+  return <>{truncatedContent}</>;
 }
 
 const NotePreview = ({ title, content }: Props) => {
